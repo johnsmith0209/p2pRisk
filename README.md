@@ -1,5 +1,7 @@
 # Breif
 
+> This `REPO` is for the homework of BIT's MEM course, and has no intention for business usage.
+
 This is a project that collects peer to peer loaning platforms' data and analysis the risk of it.
 
 ## Web Spider
