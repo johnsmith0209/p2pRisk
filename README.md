@@ -69,3 +69,7 @@ This is a project that collects peer to peer loaning platforms' data and analysi
   }
 }
 ```
+
+## TODO
+
+* Use python to implement `Few-shot learnning` to do the classification & risk evaluation.
