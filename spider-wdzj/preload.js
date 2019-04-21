@@ -58,9 +58,10 @@ window.getBasic = (month) => {
   return axios(opts).then((res) => {
     res = _.chain(res.data).map((i) => {
       i.month = moment(start, config.dateFormat).format(config.monthFormat)
-      if (i.businessTypeIds) {
+      if (i.businessTypeIdS) {
         i.businessTypeIds = i.businessTypeIds.split(',')
         i.businessTypes = _.compact(_.map(i.businessTypeIds, _id => businessTypes[_id] || ''));
+        delete i.businessTypeIdS;
       } else {
         i.businessTypeIds = []
         i.businessTypes = []
