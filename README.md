@@ -18,7 +18,7 @@ This is a project that collects peer to peer loaning platforms' data and analysi
   5. Then type `getBroken()`, this will fetch data of all the platforms which are/were malfunctioning. This fetching will ignore date ranges and return all dates' data.
   6. Finally, call `attachBroken()`, this function will attach the data from `getBroken` into the `basics` data. then get our finall data structure as below;
 
-```JSON
+```javascript
 {
   "$wdzjPlatId": {
     "wdzjPlatId": int, // wdzj platform id: 40 
